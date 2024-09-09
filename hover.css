@@ -1,0 +1,22 @@
+.searchbtn{
+    position: relative;
+}
+
+.searchbtn .tooltip
+{
+    position: absolute;
+    background-color: gray;
+    padding: 3px 5px;
+    color: white;
+    border-radius: 5px;
+    bottom: -26px;
+    left: 10px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+
+.searchbtn:hover .tooltip
+{
+    opacity: 1;
+}
